@@ -8,6 +8,7 @@ tramp
 history
 config/local.el
 recentf
+eshell/*
 
 # for emacs
 *~
