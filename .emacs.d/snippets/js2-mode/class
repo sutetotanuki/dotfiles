@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: class
+# key: cls
+# --
+${1:export }${2:default }class ${3:Name} extends ${4:Super}{
+$5
+};

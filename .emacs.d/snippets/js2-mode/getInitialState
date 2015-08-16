@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: getInitialState
+# group: React
+# key: gis
+# --
+getInitialState() {
+  return {
+    $0
+  };
+}
