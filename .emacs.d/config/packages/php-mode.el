@@ -16,3 +16,4 @@
       (c-set-offset 'arglist-close' 0))
     t)
     (add-hook 'php-mode-hook 'my/php-mode-hook-function))
+(add-to-list 'dash-at-point-mode-alist '(php-mode . "php"))

@@ -156,6 +156,10 @@
 ;; web-mode
 (load "config/packages/web-mode")
 
+;; dash
+(el-get-bundle 'dash-at-point)
+(global-set-key "\C-cd" 'dash-at-point)
+(global-set-key "\C-ce" 'dash-at-point-with-docset)
 
 
 ;; display-bufferの挙動を変える
